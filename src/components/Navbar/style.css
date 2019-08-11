@@ -1,0 +1,22 @@
+.navMenu {
+    color: white;
+    float: right;
+}
+/* #nav1 {    
+    opacity: 0.9; 
+    margin-bottom: 10px;  
+    
+} */
+
+#navAbout, #navPort, #navContact {
+    float: right;
+    margin-top: 5px;
+    margin-right: 15px;
+    
+}
+.navDiv {
+    width: 100%;
+    height: 50px;
+   
+    
+}
