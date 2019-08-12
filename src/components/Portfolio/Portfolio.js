@@ -7,7 +7,7 @@ import "./style.css";
 function Portfolio() {
     return (
         <div className="portMain">
-            <div className="container">
+            <div className="container portContainer">
                 <div className="row">
                     <div className="col-md-12">
                         <h1 id="portfolioTitle">Portfolio</h1>
