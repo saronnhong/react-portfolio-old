@@ -12,7 +12,7 @@ function Navbar(props) {
                         <div className="navbar-brand" ><i class="far fa-address-card"></i> Saron Nhong</div>
                     </Link>
 
-                    <Link smooth to="#contact">
+                    <Link smooth to="/#contact">
                         <div className="navMenu" id="navContact">Contact</div>
                     </Link>
                     <Link smooth to="/portfolio">

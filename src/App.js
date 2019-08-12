@@ -11,8 +11,8 @@ class App extends Component {
   render() {
     return (
       <div className="main">
-        
-        <div className="aboutMe" id="aboutMe">
+
+        <div className="homeScreen">
           <div className="container">
             <div className="row">
               <div className="col-md-12 imgRow">
@@ -65,99 +65,28 @@ class App extends Component {
           </div>
         </div>
 
-        <div className="portfolioSection" id="portfolio">
-          <div className="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h1 id="aboutMe">Portfolio</h1>
-              </div>
-            </div>
 
+        <div className="aboutSection">
+          <div className="container" id="aboutMe">
             <div className="row">
               <div className="col-md-6">
-                <div class="card">
-                  <a href="http://app-dani.herokuapp.com/">
-                    <img width="100%" src="/img/dani_ss.png" class="card-img-top" alt="..." />
-                  </a>
-                  <div class="card-body">
-                    <p class="card-text">DANI: Final Projects </p>
+                <div className="row">
+                  <div className="aboutMeTitle">
+                    About Me
+                  </div>
+
+                </div>
+                <div className="row">
+                  <div className="aboutMeInfo">
+                  <p>I am a Full Stack Web Developer with strong skills in HTML, CSS, Javascript, NodeJS, Express, MongoDB, and React. I have a strong desire to continue to learn new things and find great satisfaction in solving complicated problems. </p>
+                  <p>My previous career as a Software Test Engineer allowed me to understand the hard work it takes to put out quality software and the importance of catching bugs early on in the process. Applying these skills to Web Development will help improve the quality of applications and save time in the debugging/testing phase of development.</p>
                   </div>
                 </div>
               </div>
-
-            
               
-
-              <div className="col-md-6">
-                <div class="card">
-                  <a href="http://app-dani.herokuapp.com/">
-                    <img width="100%" src="/img/clicky_game.png" class="card-img-top" alt="..." />
-                  </a>
-                  <div class="card-body">
-                    <p class="card-text">Clicky Game: A Lesson in ReactJS </p>
-                  </div>
-                </div>
-              </div>
             </div>
-
-            <div className="row">
-              <div className="col-md-6">
-                <div class="card">
-                  <a href="http://app-dani.herokuapp.com/">
-                    <img width="100%" src="/img/monogoscraper.png" class="card-img-top" alt="..." />
-                  </a>
-                  <div class="card-body">
-                    <p class="card-text">DANI: Final Projects </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-md-6">
-                <div class="card">
-                  <a href="http://app-dani.herokuapp.com/">
-                    <img width="100%" src="/img/wat2watch.png" class="card-img-top" alt="..." />
-                  </a>
-                  <div class="card-body">
-                    <p class="card-text">Clicky Game: A Lesson in ReactJS </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="row">
-              <div className="col-md-6">
-                <div class="card">
-                  <a href="http://app-dani.herokuapp.com/">
-                    <img width="100%" src="/img/eatdaburger_ss.png" class="card-img-top" alt="..." />
-                  </a>
-                  <div class="card-body">
-                    <p class="card-text">DANI: Final Projects </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-md-6">
-                <div class="card">
-                  <a href="http://app-dani.herokuapp.com/">
-                    <img width="100%" src="/img/friendfinder.png" class="card-img-top" alt="..." />
-                  </a>
-                  <div class="card-body">
-                    <p class="card-text">Clicky Game: A Lesson in ReactJS </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-
-
-
+            
           </div>
-        </div>
-        <div className="contactSection">
-          <div className="container" id="contact">
-            Contact Section
-        </div>
         </div>
       </div >
     );
