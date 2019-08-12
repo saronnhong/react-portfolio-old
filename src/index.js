@@ -6,13 +6,15 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 import Navbar from './components/Navbar';
+import Portfolio from './components/Portfolio';
 
 ReactDOM.render(
     // <App />
     <Router>
         <div>
-            <Route path="/" component={Navbar} />
-            <App />
+            <Navbar />
+            <Route exact path="/portfolio" component={Portfolio} />
+            <Route exact path="/" component={App} />
         </div>
     </Router>
     , document.getElementById('root'));
