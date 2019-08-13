@@ -19,7 +19,7 @@ function Portfolio() {
                         <div className="col-md-6">
                             <div className="card">
                                 <a href={projects.deployLink1}>
-                                    <img width="100%" src={projects.imageLocation1} className="card-img-top" alt="..." />
+                                    <img width="100%" src={process.env.PUBLIC_URL + projects.imageLocation1} className="card-img-top" alt="..." />
                                 </a>
                                 <div className="card-body">
                                     <div className="card-text">{projects.project1}
@@ -34,7 +34,7 @@ function Portfolio() {
                         <div className="col-md-6">
                             <div className="card">
                                 <a href={projects.deployLink2}>
-                                    <img width="100%" src={projects.imageLocation2} className="card-img-top" alt="..." />
+                                    <img width="100%" src={process.env.PUBLIC_URL + projects.imageLocation2} className="card-img-top" alt="..." />
                                 </a>
                                 <div className="card-body">
                                     <div className="card-text">{projects.project2}

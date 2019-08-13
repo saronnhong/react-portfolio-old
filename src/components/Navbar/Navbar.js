@@ -8,18 +8,18 @@ function Navbar(props) {
         <div className="navTop">
             <nav className="navbar navbar-dark bg-dark fixed-top" id="nav1">
                 <div className="navDiv">
-                    <Link smooth to="/">
+                    <Link smooth to="/react-portfolio">
                         <div className="navbar-brand" ><i class="far fa-address-card"></i> Saron Nhong</div>
                     </Link>
 
-                    <Link smooth to="/#contact">
+                    <Link smooth to="/react-portfolio/#contact">
                         <div className="navMenu" id="navContact">Contact</div>
                     </Link>
-                    <Link smooth to="/portfolio">
+                    <Link smooth to="/react-portfolio/portfolio">
                         <div className="navMenu" href="#portSec" id="navPort">Portfolio</div>
                     </Link>
 
-                    <Link smooth to="/#aboutMe">
+                    <Link smooth to="/react-portfolio/#aboutMe">
                         <div className="navMenu" id="navAbout"> About</div>
                     </Link>
                 </div>

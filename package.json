@@ -1,5 +1,6 @@
 {
   "name": "react-portfolio",
+  "homepage": "https://saronnhong.github.io/react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -44,6 +45,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/saronnhong/react-portfolio/issues"
-  },
-  "homepage": "https://saronnhong.github.io/react-portfolio/"
+  }
 }

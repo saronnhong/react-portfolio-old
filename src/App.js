@@ -1,14 +1,15 @@
 
 
-import { HashLink as Link } from 'react-router-hash-link';
+// import { HashLink as Link } from 'react-router-hash-link';
 // import { NavHashLink as NavLink } from 'react-router-hash-link';
 // import { BrowserRouter, Router, Link } from "react-router-dom";
 import React, { Component } from "react";
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 import './App.css';
 
 class App extends Component {
   render() {
+    console.log('public url: ', process.env.PUBLIC_URL);
     return (
       <div className="main">
 
@@ -16,9 +17,7 @@ class App extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-12 imgRow">
-                {/* <div className="circular">
-                  <img className="circle" src="img/crabs.jpg"></img>
-                </div> */}
+                
               </div>
             </div>
             <div className="row">
@@ -60,7 +59,7 @@ class App extends Component {
                 </div>
               </div>
               <div className="col-md-6 circular">
-                <img src="/img/profile_pic-2.jpg" />
+                <img src={process.env.PUBLIC_URL +"/img/saron.jpg"} />
               </div>
 
             </div>
@@ -76,8 +75,9 @@ class App extends Component {
                 <div className="contactMeInfo">
                   <h6>Email: saronnhong@gmail.com</h6>
                   <h6>Phone: (209) 598-4517</h6>
-                  <h6>LinkedIn</h6>
-                  <h6>Github</h6>
+                  <a href="www.linkedin.com/in/saronnhong"><h6>LinkedIn</h6></a>
+                  
+                  <a  href="https://github.com/saronnhong"><h6>Github</h6></a>
                 </div>
               </div>
             </div>
