@@ -38,30 +38,6 @@ class App extends Component {
             <div className="emptyRow">
 
             </div>
-
-            {/* <div className="row">
-              <div className="col-md-8">
-                <div className="introText">
-                  Hi! My name is
-            </div>
-                <div className="nameText">
-                  Saron Nhong.
-              </div>
-                <div className="quoteText">
-                  "Aspire To Inspire Before You Expire." - unknown
-            </div>
-              </div>
-              <div className="col-md-4 circular">
-                <img className="circle" src="img/crabs.jpg"></img>
-              </div>
-            </div>
-            <div className="row emptyRow">
-              <div className="col-md-9">
-                <div className="introText">
-                  I am Web Developer with strong skills in HTML, CSS, and Javascript. I have a strong desire to continue to learn new things and find great satisfaction in solving complicated problems. My previous career as a Software Test Engineer allowed me to understand the hard work it takes to put out quality software. Excited to have software testing skills alongside development skills to have a deeper involvement in building out applications.
-              </div>
-              </div> */}
-            {/* </div> */}
           </div>
         </div>
 
@@ -78,16 +54,37 @@ class App extends Component {
                 </div>
                 <div className="row">
                   <div className="aboutMeInfo">
-                  <p>I am a Full Stack Web Developer with strong skills in HTML, CSS, Javascript, NodeJS, Express, MongoDB, and React. I have a strong desire to continue to learn new things and find great satisfaction in solving complicated problems. </p>
-                  <p>My previous career as a Software Test Engineer allowed me to understand the hard work it takes to put out quality software and the importance of catching bugs early on in the process. Applying these skills to Web Development will help improve the quality of applications and save time in the debugging/testing phase of development.</p>
+                    <p>I am a Full Stack Web Developer with strong skills in HTML, CSS, Javascript, NodeJS, Express, MongoDB, and React. I’m passionate about learning new things and find great satisfaction in solving complex problems. </p>
+                    <p>My previous career as a Software Test Engineer allowed me to understand the hard work it takes to put out quality software and the importance of identifying bugs in the early stages of software development. Applying this unique perspective (not sure if it’s unique but it might be) and diverse skills to Web Development has helped me improve the quality of my applications and save time in the debugging/testing phase of development.</p>
                   </div>
                 </div>
               </div>
-              
+              <div className="col-md-6 circular">
+                <img src="/img/profile_pic-2.jpg" />
+              </div>
+
             </div>
-            
+
+            <div className="container">
+              <div className="row" id="contact">
+                <div className="col-md-6">
+                  <div className="contactMeTitle">Contact Me </div>
+                </div>
+              </div>
+
+              <div className="row">
+                <div className="contactMeInfo">
+                  <h6>Email: saronnhong@gmail.com</h6>
+                  <h6>Phone: (209) 598-4517</h6>
+                  <h6>LinkedIn</h6>
+                  <h6>Github</h6>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
+
       </div >
     );
   }

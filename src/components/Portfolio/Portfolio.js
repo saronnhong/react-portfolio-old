@@ -10,7 +10,7 @@ function Portfolio() {
             <div className="container portContainer">
                 <div className="row">
                     <div className="col-md-12">
-                        <h1 id="portfolioTitle">Portfolio</h1>
+                        <h1 id="portfolioTitle">My Portfolio</h1>
                     </div>
                 </div>
 
