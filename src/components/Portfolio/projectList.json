@@ -53,27 +53,6 @@
     "deployLink2": "https://saronnhong.github.io/ChowFeed/",
     "imageLocation2": "/img/chowfeed.png",
     "githubLink2": "https://github.com/saronnhong/ChowFeed"
-  },
-  {
-    "id": 6,
-    "project1": "Train Time: A Lesson In Firebase",
-    "deployLink1": "https://saronnhong.github.io/Train-Time/",
-    "imageLocation1": "/img/trainTimeUpdated.png",
-    "githubLink1": "https://github.com/saronnhong/Train-Time",
-    "project2": "X-Men Giftastic: A Lesson In APIs",
-    "deployLink2": "https://saronnhong.github.io/GifTastic/",
-    "imageLocation2": "/img/x-men_giftastic.png",
-    "githubLink2": "https://github.com/saronnhong/GifTastic"
-  },
-  {
-    "id": 7,
-    "project1": "Star Wars RPG: A Lesson In JQuery",
-    "deployLink1": "https://saronnhong.github.io/Star-Wars-RPG/",
-    "imageLocation1": "/img/starwarsrpg.png",
-    "githubLink1": "https://github.com/saronnhong/Star-Wars-RPG",
-    "project2": "Hangman: A Lesson In JavaScript",
-    "deployLink2": "https://saronnhong.github.io/Word-Guess-Game/",
-    "imageLocation2": "/img/hangman.png",
-    "githubLink2": "https://github.com/saronnhong/Word-Guess-Game"
   }
 ] 
+
