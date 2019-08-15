@@ -75,9 +75,9 @@ class App extends Component {
                 <div className="contactMeInfo">
                   <h6>Email: saronnhong@gmail.com</h6>
                   <h6>Phone: (209) 598-4517</h6>
-                  <a href="www.linkedin.com/in/saronnhong"><h6>LinkedIn</h6></a>
+                  <a className="contactLinks" href="www.linkedin.com/in/saronnhong"><h6>LinkedIn</h6></a>
                   
-                  <a  href="https://github.com/saronnhong"><h6>Github</h6></a>
+                  <a className="contactLinks" href="https://github.com/saronnhong"><h6>Github</h6></a>
                 </div>
               </div>
             </div>

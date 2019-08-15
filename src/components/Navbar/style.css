@@ -15,7 +15,7 @@
     height: 50px;
     /* margin-right: 15px; */
     position: relative;
-   
+    
     
 }
 
@@ -46,8 +46,13 @@
 
 }
 
- 
-
+ #navAbout:hover{
+    color: white;
+    text-decoration-color: white;
+ }
+a{
+    text-decoration: none;
+}
 
 .navDiv {
     width: 100%;

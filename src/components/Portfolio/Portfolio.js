@@ -33,13 +33,15 @@ function Portfolio() {
 
                         <div className="col-md-6">
                             <div className="card">
+                                
                                 <a href={projects.deployLink2}>
                                     <img width="100%" src={process.env.PUBLIC_URL + projects.imageLocation2} className="card-img-top" alt="..." />
                                 </a>
                                 <div className="card-body">
                                     <div className="card-text">{projects.project2}
+                                    
                                         <a href={projects.githubLink2}>
-                                            <i className="fab fa-github githubFA"></i>
+                                        <i className="fab fa-github githubFA"></i>
                                         </a>
                                     </div>
                                 </div>

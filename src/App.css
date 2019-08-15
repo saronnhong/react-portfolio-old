@@ -112,8 +112,10 @@
   margin-left: -17px;
   
 }
-a:visited, a:link {
+.contactLinks:visited, .contactLinks:link {
   color: white;
 }
 
-
+a:hover {
+  text-decoration: none;
+}
