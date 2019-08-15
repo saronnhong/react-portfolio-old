@@ -7,25 +7,6 @@ function Navbar(props) {
     return (
         <div className="navTop">
             <nav className="navbar navbar-dark bg-dark fixed-top navbar-expand-sm" id="nav1">
-                {/* <div className="navDiv ">
-
-                    <Link smooth to="/react-portfolio">
-                        <div className="navbar-brand" ><i class="far fa-address-card"></i> Saron Nhong</div>
-                    </Link>
-
-                    <Link smooth to="/react-portfolio/#contact">
-                        <div className="navMenu" id="navContact">Contact</div>
-                    </Link>
-                    <Link smooth to="/react-portfolio/portfolio">
-                        <div className="navMenu" href="#portSec" id="navPort">Portfolio</div>
-                    </Link>
-
-                    <Link smooth to="/react-portfolio/#aboutMe">
-                        <div className="navMenu" id="navAbout"> About</div>
-                    </Link>
-
-
-                </div> */}
                 <Link smooth to="/react-portfolio">
                     <div className="navbar-brand" ><i class="far fa-address-card"></i> Saron Nhong</div>
                 </Link>
@@ -34,10 +15,9 @@ function Navbar(props) {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-
                         <li class="nav-item">
                             <Link smooth to="/react-portfolio/#aboutMe">
-                                <div className="navMenu" id="navAbout"> About</div>
+                                <div className="navMenu" id="navAbout">About</div>
                             </Link>
                         </li>
                         <li class="nav-item">
@@ -45,8 +25,7 @@ function Navbar(props) {
                                 <div className="navMenu" href="#portSec" id="navPort">Portfolio</div>
                             </Link>
                         </li>
-
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <Link smooth to="/react-portfolio/#contact">
                                 <div className="navMenu" id="navContact">Contact</div>
                             </Link>
