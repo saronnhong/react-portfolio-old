@@ -119,3 +119,27 @@
 a:hover {
   text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .nameText {
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgb(50,50,50);
+  }
+
+  .introText {
+    font-size: 18px;
+    color: rgb(50,50,50);
+  }
+
+  .emptyRow {
+    height: 100px;
+  }
+
+  .homeScreen {
+    background-image: url("/img/full-bloom.png");
+    background-repeat: repeat;
+    background-color: rgb(242,192,148);
+    background-blend-mode: multiply;
+  }
+}
