@@ -45,6 +45,7 @@
   height: auto;
   background: rgb(20,11,10);
   color: white;
+  
 }
 
 
@@ -98,11 +99,13 @@
   font-weight: bolder;
   color: rgb(240,229,168);
   margin: 17% 0 3% 0;
+  opacity: .8;
 }
 
 .aboutMeInfo, .contactMeInfo {
   font-size: 18px;
   margin-bottom: 40%;
+  opacity: .8;
 }
 
 .contactMeTitle{
@@ -110,36 +113,60 @@
   font-weight: bolder;
   color: rgb(240,229,168);
   margin-left: -17px;
+  opacity: .8;
   
 }
 .contactLinks:visited, .contactLinks:link {
   color: white;
+  opacity: .8;
 }
 
 a:hover {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .nameText {
     font-size: 30px;
-    margin-top: 20px;
-    color: rgb(50,50,50);
+    margin-top: 100px;
+    line-height: 1.25;
+    /* color: rgb(50,50,50); */
   }
 
   .introText {
     font-size: 18px;
-    color: rgb(50,50,50);
+    /* color: rgb(50,50,50); */
   }
 
   .emptyRow {
-    height: 100px;
+    height: 250px;
   }
 
   .homeScreen {
-    background-image: url("/img/full-bloom.png");
-    background-repeat: repeat;
+    /* background-image: url("/img/full-bloom.png"); */
+    /* background-repeat: repeat; */
     background-color: rgb(242,192,148);
-    background-blend-mode: multiply;
+    /* background-blend-mode: multiply; */
+  }
+
+  .aboutMeTitle{
+    font-size: 30px;
+
+  }
+  .aboutMeInfo {
+    font-size: 16px;
+    margin-bottom: 0%;
+  }
+  .contactMeTitle{
+    font-size: 30px;
+
+  }
+  .contactMeInfo{
+    font-size: 16px;
+  }
+
+  .circular img {
+    margin: 10px;
+    float: left;
   }
 }

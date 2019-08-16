@@ -16,7 +16,7 @@ function Portfolio() {
 
                 {Project.map((projects) =>
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-md-6 cardRow">
                             <div className="card">
                                 <a href={projects.deployLink1}>
                                     <img width="100%" src={process.env.PUBLIC_URL + projects.imageLocation1} className="card-img-top" alt="..." />
@@ -31,7 +31,7 @@ function Portfolio() {
                             </div>
                         </div>
 
-                        <div className="col-md-6">
+                        <div className="col-md-6 cardRow">
                             <div className="card">
                                 
                                 <a href={projects.deployLink2}>
