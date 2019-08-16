@@ -4,7 +4,7 @@
     
 }
 
-.card {
+.cardPort {
     margin: 20px 10px 5px 10px;
     
 }
@@ -46,7 +46,7 @@ body{
     .portContainer{
         width: 98%;
     }
-    .card {
+    .cardPort {
         margin: 10px 5px 2px 5px;
     }
     .cardRow {

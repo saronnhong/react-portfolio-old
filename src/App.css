@@ -151,11 +151,13 @@ a:hover {
 
   .aboutMeTitle{
     font-size: 30px;
+    margin-left: 10px;
 
   }
   .aboutMeInfo {
     font-size: 16px;
-    margin-bottom: 0%;
+    margin: 0 10px;
+    /* margin-bottom: 0%; */
   }
   .contactMeTitle{
     font-size: 30px;
