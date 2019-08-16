@@ -1,50 +1,25 @@
-
-
-// import { HashLink as Link } from 'react-router-hash-link';
-// import { NavHashLink as NavLink } from 'react-router-hash-link';
-// import { BrowserRouter, Router, Link } from "react-router-dom";
 import React, { Component } from "react";
-// import Navbar from "./components/Navbar";
 import './App.css';
 
 class App extends Component {
-  state = {
-    email: {
-      recipient: 'saronnhong@gmail.com',
-      sender: '',
-      subject: '',
-      text: ''
-    }
-  }
-
-  sendEmail = _ => {
-    const { email } = this.state;
-    fetch(`http://127.0.0.1:4000/send-email?recipient=${email.recipient}&sender=${email.sender}&topic=${email.subject}&text=${email.text}`) //query string url
-      .catch(err => console.error(err))
+  componentDidMount() {
+    window.scrollTo(0,0);
   }
 
   render() {
-    console.log('public url: ', process.env.PUBLIC_URL);
-
-    const { email } = this.state;
-
-    const textArea = {
-      borderRadius: 4
-    }
 
     return (
       <div className="main">
-
+        <a id="home"></a>
         <div className="homeScreen">
           <div className="container">
             <div className="row">
               <div className="col-md-12 imgRow">
-
               </div>
             </div>
             <div className="row">
               <div className="col-md-12">
-                <div className="nameText">
+                <div className="nameText" >
                   Full Stack Web Developer
                 </div>
               </div>
@@ -57,12 +32,9 @@ class App extends Component {
               </div>
             </div>
             <div className="emptyRow">
-
             </div>
           </div>
         </div>
-
-
         <div className="aboutSection">
           <div className="container" id="aboutMe">
             <div className="row">
@@ -71,7 +43,6 @@ class App extends Component {
                   <div className="aboutMeTitle">
                     About Me
                   </div>
-
                 </div>
                 <div className="row">
                   <div className="aboutMeInfo">
@@ -83,7 +54,6 @@ class App extends Component {
               <div className="col-md-6 circular">
                 <img src={process.env.PUBLIC_URL + "/img/saron.jpg"} />
               </div>
-
             </div>
 
             <div className="container">
@@ -92,39 +62,12 @@ class App extends Component {
                   <div className="contactMeTitle">Contact Me </div>
                 </div>
               </div>
-
               <div className="row">
                 <div className="contactMeInfo">
                   <h6>Email: saronnhong@gmail.com</h6>
                   <h6>Phone: (209) 598-4517</h6>
                   <a className="contactLinks" href="www.linkedin.com/in/saronnhong"><h6>LinkedIn</h6></a>
-
                   <a className="contactLinks" href="https://github.com/saronnhong"><h6>Github</h6></a>
-
-                  <div>
-                    <h2> Send Email </h2>
-                    <label> Recipient </label>
-                    <br />
-                    <input value={email.recipient}
-                      onChange={e => this.setState({ email: { ...email, recipient: e.target.value } })} />
-                    <div />
-                    <label> Sender </label>
-                    <br />
-                    <input value={email.sender}
-                      onChange={e => this.setState({ email: { ...email, sender: e.target.value } })} />
-                    <div />
-                    <label> Subject </label>
-                    <br />
-                    <input value={email.subject}
-                      onChange={e => this.setState({ email: { ...email, subject: e.target.value } })} />
-                    <div />
-                    <label> Message </label>
-                    <br />
-                    <textarea rows={3} value={email.text} style={textArea}
-                      onChange={e => this.setState({ email: { ...email, text: e.target.value } })} />
-                    <div />
-                    <button onClick={this.sendEmail}> Send Email </button>
-                  </div>
                 </div>
               </div>
             </div>

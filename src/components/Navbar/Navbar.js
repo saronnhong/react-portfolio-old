@@ -7,8 +7,8 @@ function Navbar(props) {
     return (
         <div className="navTop">
             <nav className="navbar navbar-dark bg-dark fixed-top navbar-expand-sm" id="nav1">
-                <Link smooth to="/react-portfolio">
-                    <div className="navbar-brand" ><i class="far fa-address-card"></i> Saron Nhong</div>
+                <Link smooth to="/react-portfolio/#home">
+                    <div className="navbar-brand" ><i className="far fa-address-card"></i> Saron Nhong</div>
                 </Link>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>

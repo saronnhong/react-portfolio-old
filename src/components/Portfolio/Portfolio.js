@@ -1,10 +1,16 @@
-import React from "react";
+import React, { Component } from "react";
 // import { BrowserRouter, Route, Link } from "react-router-dom";
 // import { HashLink as Link } from 'react-router-hash-link';
 import Project from "./projectList.json";
 import "./style.css";
 
-function Portfolio() {
+
+
+class Portfolio extends Component  {
+    componentDidMount() {
+        window.scrollTo(0,0);
+      }
+    render(){
     return (
         <div className="portMain">
             <div className="container portContainer">
@@ -53,5 +59,5 @@ function Portfolio() {
         </div >
     );
 }
-
+}
 export default Portfolio;
