@@ -17,17 +17,17 @@ function Navbar(props) {
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <Link smooth to="/react-portfolio/#aboutMe">
-                                <div className="navMenu" id="navAbout">About</div>
+                                <div className="navMenu" id="navAbout" data-toggle="collapse" data-target=".navbar-collapse.show">About</div>
                             </Link>
                         </li>
                         <li class="nav-item">
                             <Link smooth to="/react-portfolio/portfolio">
-                                <div className="navMenu" href="#portSec" id="navPort">Portfolio</div>
+                                <div className="navMenu" href="#portSec" id="navPort" data-toggle="collapse" data-target=".navbar-collapse.show">Portfolio</div>
                             </Link>
                         </li>
                         <li class="nav-item">
                             <Link smooth to="/react-portfolio/#contact">
-                                <div className="navMenu" id="navContact">Contact</div>
+                                <div className="navMenu" id="navContact" data-toggle="collapse" data-target=".navbar-collapse.show">Contact</div>
                             </Link>
                         </li>
                     </ul>
