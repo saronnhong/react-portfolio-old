@@ -1,9 +1,9 @@
 var express = require("express");
-var PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3001;
 var app = express();
 const path = require('path');
 
-app.use(express.static("public"));
+app.use(express.static("./client/public"));
 
 const nodemailer = require('nodemailer');
 require('dotenv').config();
@@ -32,9 +32,9 @@ app.get("/send-email", function(req, res) {
     });
 })
 
-app.get("*", function(req, res) {
-    res.sendFile(path.join(__dirname, "./client/build/index.html"));
-  });
+// app.get("*", function(req, res) {
+//     res.sendFile(path.join(__dirname, "./build/index.html"));
+//   });
 
 app.listen(PORT, function() {
     // Log (server-side) when our server has started
