@@ -27,7 +27,7 @@ class App extends Component {
             <div className="row">
               <div className="col-md-12">
                 <div className="introText">
-                  HTML/CSS | JavaScript | React | NodeJS | Express | MongoDB
+                  HTML | CSS | JavaScript | NodeJS | Express | MySQL | MongoDB | ReactJS
                 </div>
               </div>
             </div>
